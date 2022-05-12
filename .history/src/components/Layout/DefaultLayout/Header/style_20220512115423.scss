@@ -1,0 +1,119 @@
+.header {
+  border-bottom: 1px solid rgba(185, 183, 183, 0.956);
+  .navbar-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+  }
+  .menu-left {
+    flex: 1;
+    display: flex;
+
+    //Sub-menu
+    .subnav {
+      padding: 30px 0;
+      &:hover {
+        .subnav-content {
+          display: flex;
+        }
+      }
+      .shop {
+        position: relative;
+        cursor: pointer;
+        display: inline;
+        font-family: din-2014;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 1.4px;
+        text-transform: uppercase;
+      }
+      .subnav-content {
+        display: none;
+        // float: left;
+        overflow: hidden;
+        position: absolute;
+        left: 0;
+        background-color: rgb(200, 225, 175);
+        width: 100%;
+        z-index: 1;
+        justify-content: space-around;
+        padding: 20px 0px;
+        top: 48px;
+        .subnav-content-shop,
+        .subnav-content-fish,
+        .subnav-content-item,
+        .subnav-content-aquarium {
+          display: flex;
+          flex-direction: column;
+          .subnav-title {
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 20px;
+            margin: 0px 0px 25px;
+            color: #000;
+            text-decoration: none;
+            text-transform: uppercase;
+            cursor: pointer;
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+          .subnav-items {
+            color: #333;
+            text-decoration: none;
+            font-size: 17px;
+            font-weight: 300;
+            line-height: 17px;
+            margin: 0px 0px 17px;
+            cursor: pointer;
+            &:hover {
+              font-weight: 400;
+              color: #000;
+            }
+          }
+        }
+      }
+    }
+
+    .explore {
+      cursor: pointer;
+      display: inline;
+      font-family: din-2014;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 1.4px;
+      text-transform: uppercase;
+      padding-left: 10%;
+    }
+  }
+  .logo {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    img {
+      padding: 40px 0;
+      width: auto;
+      height: 200px;
+    }
+  }
+  .menu-right {
+    flex: 1;
+    text-align: right;
+    .myCart {
+      cursor: pointer;
+      display: inline;
+      font-family: din-2014;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 1.4px;
+      text-transform: uppercase;
+    }
+  }
+}
+// @media only screen and (min-width: 1200px) {
+//   .header {
+//     padding: 0 100px;
+//   }
+// }

@@ -1,0 +1,24 @@
+.wallpaper-shop {
+  .img-wallpaper {
+    width: 100%;
+    .img {
+      background-image: url("./4645999.jpg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center center;
+      width: 100%;
+      height: 400px;
+    }
+    img {
+      display: block;
+      // width: auto;
+      // height: auto;
+      object-fit: cover;
+      object-position: center center;
+      width: 100%;
+      //   height: 530px;
+      padding-bottom: 30px;
+      min-height: 400px;
+    }
+  }
+}

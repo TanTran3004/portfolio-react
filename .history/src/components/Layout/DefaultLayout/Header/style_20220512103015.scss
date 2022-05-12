@@ -1,0 +1,58 @@
+.header {
+  border-bottom: 1px solid rgba(185, 183, 183, 0.956);
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    // width: 100%;
+  }
+  .menu-left {
+    flex: 1;
+    display: flex;
+    .shop {
+      display: inline;
+      font-family: din-2014;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 1.4px;
+      text-transform: uppercase;
+    }
+    .explore {
+      display: inline;
+      font-family: din-2014;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 1.4px;
+      text-transform: uppercase;
+      padding-left: 10%;
+    }
+  }
+  .logo {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    img {
+      width: auto;
+      height: 150px;
+    }
+  }
+  .menu-right {
+    flex: 1;
+    text-align: right;
+    .myCart {
+      display: inline;
+      font-family: din-2014;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 1.4px;
+      text-transform: uppercase;
+    }
+  }
+}
+// @media only screen and (min-width: 1200px) {
+//   .header {
+//     padding: 0 100px;
+//   }
+// }

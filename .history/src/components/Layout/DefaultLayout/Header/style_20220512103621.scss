@@ -1,0 +1,62 @@
+.header {
+  border-bottom: 1px solid rgba(185, 183, 183, 0.956);
+  .navbar-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    padding: 0 60px;
+  }
+  .menu-left {
+    flex: 1;
+    display: flex;
+    .shop {
+      cursor: pointer;
+      display: inline;
+      font-family: din-2014;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 1.4px;
+      text-transform: uppercase;
+    }
+    .explore {
+      cursor: pointer;
+      display: inline;
+      font-family: din-2014;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 1.4px;
+      text-transform: uppercase;
+      padding-left: 10%;
+    }
+  }
+  .logo {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    img {
+      padding: 40px 0;
+      width: auto;
+      height: 200px;
+    }
+  }
+  .menu-right {
+    flex: 1;
+    text-align: right;
+    .myCart {
+      cursor: pointer;
+      display: inline;
+      font-family: din-2014;
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: 1.4px;
+      text-transform: uppercase;
+    }
+  }
+}
+// @media only screen and (min-width: 1200px) {
+//   .header {
+//     padding: 0 100px;
+//   }
+// }

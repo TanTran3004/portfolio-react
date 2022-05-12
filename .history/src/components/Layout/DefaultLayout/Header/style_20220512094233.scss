@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  .menu-left {
+    display: flex;
+    .explore {
+      padding-left: 10%;
+    }
+  }
+  .logo {
+    img {
+      width: auto;
+      height: 200px;
+    }
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .header {
+    padding: 100px;
+  }
+}
