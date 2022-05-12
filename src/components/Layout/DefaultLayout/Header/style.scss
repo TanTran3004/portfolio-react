@@ -57,8 +57,26 @@
             text-decoration: none;
             text-transform: uppercase;
             cursor: pointer;
+          }
+          .directions {
+            width: fit-content;
+            &:after {
+              content: " ";
+              position: absolute;
+              width: 100%;
+              transform: scaleX(0);
+              height: 2px;
+              bottom: -2px;
+              left: 0;
+              background-color: #fff;
+              transform-origin: bottom right;
+              transition: transform 0.25s ease-out;
+            }
             &:hover {
-              text-decoration: underline;
+              &:after {
+                transform: scaleX(1);
+                transform-origin: bottom left;
+              }
             }
           }
           .subnav-items {
