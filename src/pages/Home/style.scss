@@ -1,22 +1,119 @@
-.wallpaper-shop {
-  .img-wallpaper {
+@import "../../components/GlobalStyles/GlobalStyles.scss";
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &.wallpaper-shop {
     // width: 100%;
-    background-image: url("./4645999.jpg");
-    height: 500px;
+    background-image: url("../../assets/image/wallpaper.jpg");
+    height: 60vh;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-
-    img {
-      display: block;
-      // width: auto;
-      // height: auto;
-      object-fit: cover;
-      object-position: center center;
-      width: 100%;
-      //   height: 530px;
-      padding-bottom: 30px;
-      min-height: 400px;
+    position: relative;
+    .txt-wallpaper {
+      text-align: center;
+      // color: #fff;
+      .directions {
+        font-size: 15px;
+        font-weight: 500;
+        color: #fff;
+        font-weight: 700;
+        letter-spacing: 1.4px;
+        text-transform: uppercase;
+        display: inline-block;
+        position: relative;
+        cursor: pointer;
+        &:after {
+          content: " ";
+          position: absolute;
+          width: 100%;
+          transform: scaleX(0);
+          height: 2px;
+          bottom: 0;
+          left: 0;
+          background-color: #fff;
+          transform-origin: bottom right;
+          transition: transform 0.25s ease-out;
+        }
+        &:hover {
+          &:after {
+            transform: scaleX(1);
+            transform-origin: bottom left;
+          }
+        }
+      }
+    }
+  }
+  &.design-wrapper {
+    text-align: center;
+    .txt-wrapper {
+      margin: 40px 0;
+      .design-title {
+        font-size: 46px;
+        font-weight: 300;
+        line-height: 58px;
+        margin: 0px 0px 23px;
+      }
+      .design-slogan {
+        color: #a0a0a0;
+        font-weight: 300;
+        letter-spacing: 0.8px;
+        line-height: 24px;
+        margin: 20px 0;
+      }
+      .directions {
+        font-size: 14px;
+        letter-spacing: 1.4px;
+        text-transform: uppercase;
+        display: inline-block;
+        position: relative;
+        cursor: pointer;
+        &:after {
+          content: " ";
+          position: absolute;
+          width: 100%;
+          transform: scaleX(0);
+          height: 2px;
+          bottom: 0px;
+          left: 0;
+          background-color: #a0a0a0;
+          transform-origin: bottom right;
+          transition: transform 0.25s ease-out;
+        }
+        &:hover {
+          &:after {
+            transform: scaleX(1);
+            transform-origin: bottom left;
+          }
+        }
+      }
+    }
+  }
+  &.introduction {
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    padding: 0 40px;
+    .introduction-product {
+      text-align: center;
+      align-items: center;
+      padding: 0 10px;
+      .title {
+        margin-top: 30px;
+      }
+      .directions {
+        font-size: 15px;
+        font-weight: 500;
+        font-weight: 700;
+        margin: 10px 0;
+      }
+      img {
+        display: block;
+        object-fit: contain;
+        width: 100%;
+        height: 68vh;
+      }
     }
   }
 }

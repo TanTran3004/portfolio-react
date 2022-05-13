@@ -1,10 +1,47 @@
 import "./style.scss";
-import img from "./4645999.jpg";
+// import img from "./4645999.jpg";
+import img from "../../assets/image/image1.jpg";
 function Home() {
   return (
     <>
-      <div className="wallpaper-shop">
-        <div className="img-wallpaper"></div>
+      <div className="section wallpaper-shop ">
+        <div className="txt-wallpaper">
+          <h3 className="banner">What is Lorem Ipsum?</h3>
+          <p className="description">
+            It is a long established fact that a reader will be distracted by
+          </p>
+          <span className="directions">Lorem Ipsum</span>
+        </div>
+      </div>
+
+      <div className="section design-wrapper">
+        <div className="txt-wrapper">
+          <h3 className="title design-title">What is Lorem Ipsum?</h3>
+          <p className="description design-slogan">
+            It is a long established fact that a reader will be distracted by
+          </p>
+          <span className="directions">Lorem Ipsum</span>
+        </div>
+      </div>
+      <div className="section introduction">
+        <div className="introduction-product">
+          <img src={img} alt="" />
+          <h3 className="title">Lorem Ipsum</h3>
+          <span className="directions">Lorem Ipsum</span>
+        </div>
+        <div className="introduction-product">
+          <img src={img} alt="" />
+          <h3 className="title">Lorem Ipsum</h3>
+          <span className="directions">Lorem Ipsum</span>
+        </div>
+      </div>
+      <div className="section">
+        <div className="featured-wrapper">
+          <h3 className="title">What is Lorem Ipsum</h3>
+          <p className="description">
+            It is a long established fact that a reader will be distracted by
+          </p>
+        </div>
       </div>
     </>
   );

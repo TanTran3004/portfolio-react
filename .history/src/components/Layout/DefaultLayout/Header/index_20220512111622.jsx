@@ -13,18 +13,18 @@ function Header() {
               <div className="subnav">
                 <div className="subnav-content">
                   <div className="subnav-content-shop">
-                    <a className="subnav-title">CỬA HÀNG</a>
+                    <a className="subnav-title  directions">CỬA HÀNG</a>
                     <a className="subnav-items">Tất cả sản phẩm </a>
                   </div>
                   <div className="subnav-content-fish">
-                    <a className="subnav-title"> CÁ</a>
+                    <a className="subnav-title  directions"> CÁ</a>
                     <a className="subnav-items"> Cá Rông</a>
                     <a className="subnav-items"> Cá Koi </a>
                     <a className="subnav-items"> Cá cảnh nhỏ</a>
                     <a className="subnav-items"> Cá Xiêm</a>
                   </div>
                   <div className="subnav-content-item">
-                    <a className="subnav-title"> PHỤ KIỆN </a>
+                    <a className="subnav-title  directions"> PHỤ KIỆN </a>
                     <a className="subnav-items"> Thức ăn cho cá</a>
                     <a className="subnav-items"> Thuốc cho cá</a>
                     <a className="subnav-items">Đèn led cho cá rồng</a>
@@ -33,7 +33,7 @@ function Header() {
                     <a className="subnav-items">Đèn led cho hồ thủy sinh</a>
                   </div>
                   <div className="subnav-content-aquarium">
-                    <a className="subnav-title">HỒ CÁ</a>
+                    <a className="subnav-title  directions">HỒ CÁ</a>
                     <a className="subnav-items">Hồ cá đúc</a>
                     <a className="subnav-items">Nhận đặt hồ cá theo yêu cầu</a>
                   </div>
