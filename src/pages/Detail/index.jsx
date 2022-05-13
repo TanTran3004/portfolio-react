@@ -1,7 +1,7 @@
 import "./style.scss";
 function Detail() {
   return (
-    <div className="result">
+    <div>
       <h2>Detail</h2>
     </div>
   );

@@ -1,7 +1,7 @@
 import "./style.scss";
 function Checkout() {
   return (
-    <div className="result">
+    <div>
       <h2>Checkout</h2>
     </div>
   );

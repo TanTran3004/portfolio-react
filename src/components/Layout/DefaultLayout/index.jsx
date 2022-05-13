@@ -6,8 +6,6 @@ function DefaultLayout({ children }) {
     <div>
       <Header />
       <div className="content">{children}</div>
-      {/* <div className="container">
-      </div> */}
       <Footer />
     </div>
   );

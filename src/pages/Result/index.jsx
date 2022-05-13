@@ -1,8 +1,13 @@
+import React from "react";
+import Products from "../../components/Product/Product";
 import "./style.scss";
+import productsData from "../../assets/data/data";
 function Result() {
   return (
     <div className="result">
-      <h2>Result</h2>
+      <>
+        <Products data={productsData} />
+      </>
     </div>
   );
 }
