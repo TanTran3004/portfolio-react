@@ -4,7 +4,7 @@ import "./style.scss";
 
 const Product = (props) => {
   const data = props.data;
-  console.log("data: ", data);
+  // console.log("data: ", data);
   return (
     <div className="product">
       {data.map((item, index) => (
@@ -19,10 +19,19 @@ Product.propTypes = {
 };
 
 const ProductItem = (props) => (
-  <div className="product-item">
-    <div className="product-item__title">{props.item.title}</div>
-    <img src={props.item.img} alt={props.item.title} />
-  </div>
+  <>
+    <div className="product-item">
+      <img
+        className="product-item__img"
+        src={props.item.image}
+        alt={props.item.title}
+      />
+      <div className="product-item__btnView">Xem nhanh</div>
+      <div className="product-item__title">{props.item.title}</div>
+      <div className="product-item__description">{props.item.description}</div>
+      <div className="product-item__btnAdd">Thêm vào Giỏ Hàng</div>
+    </div>
+  </>
 );
 
 export default Product;

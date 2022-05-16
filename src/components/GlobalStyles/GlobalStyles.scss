@@ -1,15 +1,14 @@
 @import "normalize.css";
 
 :root {
-  $main-bg: #fff;
-  $main-color: #4267b2;
-
-  $txt-main-color: #000;
-  $txt-second-color: #8d8d8d;
-  $txt-white: #fff;
-
-  $box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  --main-bg: rgba(206, 205, 205, 0.985);
+  --main-color: #4267b2;
+  --txt-main-color: #000;
+  --txt-second-color: #8d8d8d;
+  --txt-white: #fff;
+  --box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +16,8 @@
 }
 html {
   .content {
-    // height: 100vh;
+    margin-top: 85px;
+    background-color: var(--main-bg);
   }
 }
 
