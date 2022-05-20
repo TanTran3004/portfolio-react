@@ -7,14 +7,16 @@ const QuickViewPopup = (props) => {
   return props.trigger ? (
     <>
       <div className="quickViewPopup">
-        <div className="quickViewPopup_inner">
-          <button className="close-btn" onClick={() => props.setTrigger(false)}>
-            close
+        <div className="popup">
+          <button
+            className="btn close-btn"
+            onClick={() => props.setTrigger(false)}
+          >
+            &times;
           </button>
-          {props.children}
+          <div className="quickViewPopup_inner">{props.children}</div>
         </div>
       </div>
-      <div>QuickViewPopup</div>
     </>
   ) : (
     ""

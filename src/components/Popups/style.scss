@@ -8,16 +8,25 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  .quickViewPopup_inner {
+  z-index: 1;
+  // background-color: bisque;
+  // position: relative;
+  .popup {
     position: relative;
-    padding: 32;
-    width: 100%;
-    max-width: 640px;
+    width: 50%;
+    height: 50%;
+    display: flex;
     background-color: #fff;
+    .quickViewPopup_inner {
+      width: 100%;
+      display: flex;
+      // max-width: 640px;
+    }
     .close-btn {
       position: absolute;
       top: 16px;
       right: 16px;
+      z-index: 1;
     }
   }
 }

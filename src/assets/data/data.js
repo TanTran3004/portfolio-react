@@ -2,6 +2,7 @@ const products = [
   {
     id: 1,
     title: "Cá Xiêm Xanh",
+    sku: "001",
     description:
       "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
     category: "Cá",
@@ -13,6 +14,7 @@ const products = [
   {
     id: 2,
     title: "Cá Xiêm Đỏ",
+    sku: "002",
     description:
       "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
     image: require("../image/products/beta2.jpg"),
@@ -24,6 +26,7 @@ const products = [
   {
     id: 3,
     title: "Cá Xiêm Vàng",
+    sku: "003",
     description:
       "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
     category: "Cá",
@@ -35,6 +38,7 @@ const products = [
   {
     id: 4,
     title: "Cá Koi Nhật Đỏ Trắng",
+    sku: "004",
     description:
       "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
     category: "Cá",
@@ -46,6 +50,7 @@ const products = [
   {
     id: 5,
     title: "Cá Koi Nhật Bản Màu Vàng",
+    sku: "005",
     description:
       "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
     category: "Cá",
@@ -57,6 +62,7 @@ const products = [
   {
     id: 6,
     title: "Cá Koi Nhật Màu Đen",
+    sku: "006",
     description:
       "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
     category: "Cá",
@@ -69,6 +75,7 @@ const products = [
   {
     id: 7,
     title: "Cá rồng Hắc Long",
+    sku: "007",
     description:
       "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
     category: "Cá",
@@ -79,6 +86,7 @@ const products = [
   },
   {
     id: 8,
+    sku: "008",
     title: "Cá rồng Kim Long Quá Bối",
     description:
       "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
@@ -90,6 +98,7 @@ const products = [
   },
   {
     id: 9,
+    sku: "009",
     title: "Cao Lưng Hồng Vỹ",
     description:
       "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
