@@ -1,10 +1,6 @@
 import "./style.scss";
-function Detail() {
-  return (
-    <div>
-      <h2>Detail</h2>
-    </div>
-  );
+function Detail(props) {
+  return <div>{console.log(props)}</div>;
 }
 
 export default Detail;

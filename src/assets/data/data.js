@@ -10,6 +10,12 @@ const products = [
     image: require("../image/products/beta1.jpg"),
     path: "/ca/ca-xiem/ca-xiem-xanh",
     price: "5.000.000 VNĐ",
+    imageArr: [
+      "../image/products/beta5.jpg",
+      "../image/products/beta6.jpg",
+      "../image/products/beta7.jpg",
+      "../image/products/beta8.jpg",
+    ],
   },
   {
     id: 2,
@@ -22,6 +28,12 @@ const products = [
     subcategory: "Cá Xiêm",
     path: "/ca/ca-xiem/ca-xiem-do",
     price: "5.000.000 VNĐ",
+    // imageArr: [
+    //   require("../image/products/beta5.jpg"),
+    //   require("../image/products/beta6.jpg"),
+    //   require("../image/products/beta7.jpg"),
+    //   require("../image/products/beta8.jpg"),
+    // ],
   },
   {
     id: 3,
@@ -34,6 +46,12 @@ const products = [
     image: require("../image/products/beta3.jpg"),
     path: "/ca/ca-xiem/ca-xiem-vang",
     price: "5.000.000 VNĐ",
+    // imageArr: [
+    //   require("../image/products/beta5.jpg"),
+    //   require("../image/products/beta6.jpg"),
+    //   require("../image/products/beta7.jpg"),
+    //   require("../image/products/beta8.jpg"),
+    // ],
   },
   {
     id: 4,
@@ -46,6 +64,10 @@ const products = [
     image: require("../image/products/koi2.jpg"),
     path: "/ca/ca-koi/ca-koi-nhat-do-trang",
     price: "5.000.000 VNĐ",
+    // imageArr: [
+    //   require("../image/products/koi1.jpg"),
+    //   require("../image/products/koi5.jpg"),
+    // ],
   },
   {
     id: 5,
@@ -58,6 +80,10 @@ const products = [
     image: require("../image/products/koi3.jpg"),
     path: "/ca/ca-koi/ca-koi-nhat-ban-mau-vang",
     price: "5.000.000 VNĐ",
+    // imageArr: [
+    //   require("../image/products/koi1.jpg"),
+    //   require("../image/products/koi5.jpg"),
+    // ],
   },
   {
     id: 6,
@@ -70,6 +96,10 @@ const products = [
     image: require("../image/products/koi4.jpg"),
     path: "/ca/ca-koi/ca-koi-nhat-mau-den",
     price: "5.000.000 VNĐ",
+    // imageArr: [
+    //   require("../image/products/koi1.jpg"),
+    //   require("../image/products/koi5.jpg"),
+    // ],
   },
 
   {
@@ -83,6 +113,12 @@ const products = [
     image: require("../image/products/rong1.jpg"),
     path: "/ca/ca-rong/ca-rong-hac-long",
     price: "5.000.000 VNĐ",
+    // imageArr: [
+    //   require("../image/products/rong4.jpg"),
+    //   require("../image/products/rong5.jpg"),
+    //   require("../image/products/rong6.jpg"),
+    //   require("../image/products/rong7.jpg"),
+    // ],
   },
   {
     id: 8,
@@ -95,6 +131,12 @@ const products = [
     image: require("../image/products/rong2.jpg"),
     path: "/ca/ca-rong/ca-rong-kim-long-qua-boi",
     price: "5.000.000 VNĐ",
+    // imageArr: [
+    //   require("../image/products/rong4.jpg"),
+    //   require("../image/products/rong5.jpg"),
+    //   require("../image/products/rong6.jpg"),
+    //   require("../image/products/rong7.jpg"),
+    // ],
   },
   {
     id: 9,
@@ -107,6 +149,12 @@ const products = [
     image: require("../image/products/rong3.jpg"),
     path: "/ca/ca-rong/cao-lung-hong-vy",
     price: "5.000.000 VNĐ",
+    // imageArr: [
+    //   require("../image/products/rong4.jpg"),
+    //   require("../image/products/rong5.jpg"),
+    //   require("../image/products/rong6.jpg"),
+    //   require("../image/products/rong7.jpg"),
+    // ],
   },
 ];
 export default products;
