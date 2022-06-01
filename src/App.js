@@ -3,6 +3,17 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { publicRoutes } from "./routes";
 import { DefaultLayout } from "./components/Layout";
 import Helmet from "./components/Helmet/Helmet";
+{
+  /* <script
+  src="https://unpkg.com/react@17/umd/react.development.js"
+  crossorigin
+></script>;
+<script
+  src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+  crossorigin
+></script>; */
+}
+
 function App() {
   return (
     <Router>

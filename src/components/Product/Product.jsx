@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import "./style.scss";
 import Popup from "../Popups/Popup";
 import { Link } from "react-router-dom";
+import QuickViewPopup from "../Popups/QuickViewPopup";
 
 const Product = (props) => {
   const data = props.data;
@@ -23,6 +24,8 @@ Product.propTypes = {
 };
 
 const ProductItem = (props) => {
+  console.log("props: ", props);
+  console.log("props.item: ", props.item);
   const [buttonPopup, setButtonPopup] = useState(false);
   let handlePopup = (item) => {
     console.log(item);
@@ -31,15 +34,17 @@ const ProductItem = (props) => {
   return (
     <>
       <div className="product-item">
-        <div
-          className="product-item__img"
-          style={{ backgroundImage: "url(" + props.item.image + ")" }}
-        ></div>
+        <Link to=" /detail `${props.item.path}`">
+          <div
+            className="product-item__img"
+            style={{ backgroundImage: "url(" + props.item.image + ")" }}
+          ></div>
+        </Link>
 
         <div className="product-item__info">
           <div
             className="product-item__btnView"
-            onClick={() => handlePopup(props)}
+            onClick={() => handlePopup(props)} //! Để mở popup
           >
             Xem nhanh
           </div>
@@ -52,9 +57,15 @@ const ProductItem = (props) => {
           <div className="product-item__btnAdd">Thêm vào Giỏ Hàng</div>
         </div>
       </div>
-
+      {/* //TODO: Code phần popup */}
       {buttonPopup && (
-        <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
+        <Popup
+          // items={props.items} // pass item to popup
+          // trigger={buttonPopup} check popup in line 61
+          setTrigger={setButtonPopup}
+        >
+          <QuickViewPopup items={props.items} />
+          {/* {(params = "quickview")} */}
           {/* <div className="popup__image">
             <img src={props.item.image} alt="" />
           </div>

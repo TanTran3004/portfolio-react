@@ -1,0 +1,12 @@
+.wrapper-swiper {
+  width: 100%;
+  .mySwiper {
+    width: 100%;
+    &__subImage {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+      object-position: center center;
+    }
+  }
+}

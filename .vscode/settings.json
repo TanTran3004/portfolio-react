@@ -1,0 +1,10 @@
+{
+  "editor.wordWrap": "on",
+  "vetur.completion.scaffoldSnippetSources": {
+    "workspace": "💼",
+    "user": "🗒️",
+    "vetur": "✌"
+  },
+  "editor.tabCompletion": "on",
+  "emmet.triggerExpansionOnTab": true
+}
