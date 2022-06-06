@@ -1,164 +1,167 @@
 @import "normalize.css";
 :root {
-  --main-bg: rgba(206, 205, 205, 0.985);
-  --main-color: #4267b2;
-  --txt-main-color: #000;
-  --txt-second-color: #8d8d8d;
-  --txt-white: #fff;
-  --box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    --main-bg: rgba(206, 205, 205, 0.985);
+    --main-color: #4267b2;
+    --txt-main-color: #000;
+    --txt-second-color: #8d8d8d;
+    --txt-white: #fff;
+    --box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html {
-  .content {
-    margin-top: 85px;
-    background-color: var(--main-bg);
-  }
+    .content {
+        margin-top: 85px;
+        background-color: var(--main-bg);
+    }
 }
 
 body {
-  text-rendering: optimizeSpeed;
+    text-rendering: optimizeSpeed;
 }
 
 ul {
-  list-style-type: none;
+    list-style-type: none;
 }
 
 a {
-  text-decoration: none;
-  color: unset;
+    text-decoration: none;
+    color: unset;
 }
 
 .directions {
-  color: #000;
-  letter-spacing: 1.4px;
-  display: inline-block;
-  position: relative;
-  cursor: pointer;
-  &:after {
-    content: " ";
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-    background-color: #000;
-  }
-  &:hover {
+    color: #000;
+    letter-spacing: 1.4px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
     &:after {
-      transform: scaleX(1);
-      transform-origin: bottom left;
+        content: " ";
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+        background-color: #000;
     }
-  }
+    &:hover {
+        &:after {
+            transform: scaleX(1);
+            transform-origin: bottom left;
+        }
+    }
 }
 
 .banner {
-  color: #ffffff;
-  font-family: surveyor text a;
-  font-size: 70px;
-  font-weight: 300;
-  line-height: 70px;
-  margin: 0px 0px 7px;
-  text-align: center;
+    color: #ffffff;
+    font-family: surveyor text a;
+    font-size: 70px;
+    font-weight: 300;
+    line-height: 70px;
+    margin: 0px 0px 7px;
+    text-align: center;
 }
 
 .title {
-  font-family: surveyor text a;
-  font-size: 36px;
-  font-weight: 300;
-  line-height: 36px;
-  text-align: center;
+    font-family: surveyor text a;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 36px;
+    text-align: center;
 }
 
 .slogan {
-  color: #a0a0a0;
-  font-weight: 300;
-  letter-spacing: 0.8px;
-  text-align: center;
+    color: #a0a0a0;
+    font-weight: 300;
+    letter-spacing: 0.8px;
+    text-align: center;
 }
 
 button {
-  &:focus {
-    outline: none;
-    box-shadow: none;
-  }
-  &:disabled {
-    cursor: not-allowed;
-  }
+    &:focus {
+        outline: none;
+        box-shadow: none;
+    }
+    &:disabled {
+        cursor: not-allowed;
+    }
 }
 
 .btn {
-  font-family: "Graphik-Regular", sans-serif;
-  //   border-radius: unset !important;
-  border-radius: 4px;
-  opacity: 1;
-  font-size: 1em;
-  letter-spacing: 0.6px;
-  padding: 5px 10px;
-  outline: none;
-  cursor: pointer;
-  padding: 5px 25px;
-  &:active,
-  &:focus {
-    outline: none !important;
-    box-shadow: none !important;
-  }
-  &:hover {
-    color: #ffffff;
-  }
-  &:disabled {
-    cursor: not-allowed;
-  }
+    font-family: "Graphik-Regular", sans-serif;
+    //   border-radius: unset !important;
+    border-radius: 4px;
+    opacity: 1;
+    font-size: 1em;
+    letter-spacing: 0.6px;
+    padding: 5px 10px;
+    outline: none;
+    cursor: pointer;
+    padding: 5px 25px;
+    &:active,
+    &:focus {
+        outline: none !important;
+        box-shadow: none !important;
+    }
+    &:hover {
+        color: #ffffff;
+    }
+    &:disabled {
+        cursor: not-allowed;
+    }
 }
 
 .btn-transparent {
-  border: none;
-  background: transparent;
-  cursor: pointer;
-  color: #333;
-  &:active,
-  &:focus {
-    outline: none;
-    box-shadow: none;
-  }
-  &:disabled {
-    cursor: not-allowed;
-  }
-  &:hover {
+    border: none;
+    background: transparent;
+    cursor: pointer;
     color: #333;
-  }
+    &:active,
+    &:focus {
+        outline: none;
+        box-shadow: none;
+    }
+    &:disabled {
+        cursor: not-allowed;
+    }
+    &:hover {
+        color: #333;
+    }
 }
 
 .btn-cancel {
-  border: none;
-  background: transparent;
-  cursor: pointer;
-  color: #333;
-  border: 1px solid #3333339d !important;
-  &:active,
-  &:focus {
-    outline: none;
-    box-shadow: none;
-  }
-  &:disabled {
-    cursor: not-allowed;
-  }
-  &:hover {
+    border: none;
+    background: transparent;
+    cursor: pointer;
     color: #333;
-  }
+    border: 1px solid #3333339d !important;
+    &:active,
+    &:focus {
+        outline: none;
+        box-shadow: none;
+    }
+    &:disabled {
+        cursor: not-allowed;
+    }
+    &:hover {
+        color: #333;
+    }
 }
 
 .btn-addCart {
-  padding: 10px 28px;
-  font-weight: 600;
-  background-color: var(--main-color);
-  color: var(--txt-white);
+    padding: 10px 28px;
+    font-weight: 600;
+    background-color: var(--main-color);
+    color: var(--txt-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

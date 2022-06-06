@@ -18,7 +18,6 @@ const Carousel = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          {" "}
           <img
             src="https://gray-wave-prod.cdn.arcpublishing.com/resizer/mxUB9tKk9icDY0qQKHYYilFl4ow=/1200x675/smart/filters:quality(85)/cloudfront-us-east-1.images.arcpublishing.com/gray/LCLCUBC4QBDB5L3XTYAX77Q2G4.jpg"
             alt=""
@@ -26,7 +25,6 @@ const Carousel = () => {
           />
         </SwiperSlide>
         <SwiperSlide>
-          {" "}
           <img
             src="https://gray-wave-prod.cdn.arcpublishing.com/resizer/mxUB9tKk9icDY0qQKHYYilFl4ow=/1200x675/smart/filters:quality(85)/cloudfront-us-east-1.images.arcpublishing.com/gray/LCLCUBC4QBDB5L3XTYAX77Q2G4.jpg"
             alt=""
@@ -34,7 +32,6 @@ const Carousel = () => {
           />
         </SwiperSlide>
         <SwiperSlide>
-          {" "}
           <img
             src="https://gray-wave-prod.cdn.arcpublishing.com/resizer/mxUB9tKk9icDY0qQKHYYilFl4ow=/1200x675/smart/filters:quality(85)/cloudfront-us-east-1.images.arcpublishing.com/gray/LCLCUBC4QBDB5L3XTYAX77Q2G4.jpg"
             alt=""
@@ -42,7 +39,6 @@ const Carousel = () => {
           />
         </SwiperSlide>
         <SwiperSlide>
-          {" "}
           <img
             src="https://gray-wave-prod.cdn.arcpublishing.com/resizer/mxUB9tKk9icDY0qQKHYYilFl4ow=/1200x675/smart/filters:quality(85)/cloudfront-us-east-1.images.arcpublishing.com/gray/LCLCUBC4QBDB5L3XTYAX77Q2G4.jpg"
             alt=""
@@ -50,7 +46,6 @@ const Carousel = () => {
           />
         </SwiperSlide>
         <SwiperSlide>
-          {" "}
           <img
             src="https://gray-wave-prod.cdn.arcpublishing.com/resizer/mxUB9tKk9icDY0qQKHYYilFl4ow=/1200x675/smart/filters:quality(85)/cloudfront-us-east-1.images.arcpublishing.com/gray/LCLCUBC4QBDB5L3XTYAX77Q2G4.jpg"
             alt=""
@@ -58,7 +53,6 @@ const Carousel = () => {
           />
         </SwiperSlide>
         <SwiperSlide>
-          {" "}
           <img
             src="https://gray-wave-prod.cdn.arcpublishing.com/resizer/mxUB9tKk9icDY0qQKHYYilFl4ow=/1200x675/smart/filters:quality(85)/cloudfront-us-east-1.images.arcpublishing.com/gray/LCLCUBC4QBDB5L3XTYAX77Q2G4.jpg"
             alt=""
@@ -66,7 +60,6 @@ const Carousel = () => {
           />
         </SwiperSlide>
         <SwiperSlide>
-          {" "}
           <img
             src="https://gray-wave-prod.cdn.arcpublishing.com/resizer/mxUB9tKk9icDY0qQKHYYilFl4ow=/1200x675/smart/filters:quality(85)/cloudfront-us-east-1.images.arcpublishing.com/gray/LCLCUBC4QBDB5L3XTYAX77Q2G4.jpg"
             alt=""
@@ -74,7 +67,6 @@ const Carousel = () => {
           />
         </SwiperSlide>
         <SwiperSlide>
-          {" "}
           <img
             src="https://gray-wave-prod.cdn.arcpublishing.com/resizer/mxUB9tKk9icDY0qQKHYYilFl4ow=/1200x675/smart/filters:quality(85)/cloudfront-us-east-1.images.arcpublishing.com/gray/LCLCUBC4QBDB5L3XTYAX77Q2G4.jpg"
             alt=""
@@ -82,7 +74,6 @@ const Carousel = () => {
           />
         </SwiperSlide>
         <SwiperSlide>
-          {" "}
           <img
             src="https://gray-wave-prod.cdn.arcpublishing.com/resizer/mxUB9tKk9icDY0qQKHYYilFl4ow=/1200x675/smart/filters:quality(85)/cloudfront-us-east-1.images.arcpublishing.com/gray/LCLCUBC4QBDB5L3XTYAX77Q2G4.jpg"
             alt=""

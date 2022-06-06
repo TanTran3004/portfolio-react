@@ -1,33 +1,32 @@
 .quickViewPopup {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100vh;
-  background-color: rgba(195, 192, 192, 0.8);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1;
-  // opacity: 0.5;
-  // background-color: bisque;
-  // position: relative;
-  .popup {
-    position: relative;
-    width: 55%;
-    height: 50%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(195, 192, 192, 0.8);
     display: flex;
-    background-color: #fff;
-    .quickViewPopup_inner {
-      width: 100%;
-      display: flex;
-      // max-width: 640px;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    // opacity: 0.5;
+    // background-color: bisque;
+    // position: relative;
+    .popup {
+        position: relative;
+        // width: 55%;
+        // height: 50%;
+        display: flex;
+        background-color: #fff;
+        .quickViewPopup_inner {
+            display: inline-flex;
+            width: 100%;
+        }
+        .close-btn {
+            position: absolute;
+            top: 16px;
+            right: 16px;
+            z-index: 1;
+        }
     }
-    .close-btn {
-      position: absolute;
-      top: 16px;
-      right: 16px;
-      z-index: 1;
-    }
-  }
 }
